@@ -1,6 +1,7 @@
 import React from "react";
 import Hero from "@/components/Hero";
 import Link from "next/link";
+import Products from "@/components/Products";
 function Store() {
   return (
     <div>
@@ -10,6 +11,8 @@ function Store() {
         // textButton="Ir a Home"
         colorHeading="text-yellow-500"
       ></Hero>
+
+      <Products />
     </div>
   );
 }
